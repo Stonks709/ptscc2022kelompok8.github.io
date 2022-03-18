@@ -56,6 +56,24 @@
             <h3><b>Fenomena NFT di Masyarakat</b></h3>
             <h4><i>Cryptocurrency, NFT, dan kemiskinan</i></h4>
             <p align="justify">Teknologi kripto dan ini bisa membuka bidang lowongan pekerjaan baru bagi orang - orang yang tidak bisa menemukan bidang pekerjaan. Walaupun terkadang bidang kripto dan NFT juga sering kali dimanipulasi oleh pengusaha dan juga perusahaan untuk menciptakan uang, sehingga bisa saja semakin memperluas kesenjangan antara yang miskin dan yang kaya. 
-</p>
+            </p>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <script>
+            mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+            }
+
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+            </script>
     </body>
 </html>
