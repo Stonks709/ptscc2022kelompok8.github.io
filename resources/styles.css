@@ -10,6 +10,9 @@
  */
 
 /* Normalize */
+#padding {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
+}
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
