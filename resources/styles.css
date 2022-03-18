@@ -185,4 +185,5 @@ code {
 
 .padding {
     background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
+    text-color: black;
 }
