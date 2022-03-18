@@ -10,9 +10,6 @@
  */
 
 /* Normalize */
-#padding {
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
-}
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
@@ -184,4 +181,8 @@ a:link, a:visited {
 
 code {
     font-family: Monospace;
+}
+
+#padding {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
 }
