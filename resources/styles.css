@@ -183,12 +183,6 @@ code {
     font-family: Monospace;
 }
 
-
-.padding {
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
-    text-color: black;
-}
-
 .fade-in {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
