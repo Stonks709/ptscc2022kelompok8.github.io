@@ -183,6 +183,7 @@ code {
     font-family: Monospace;
 }
 
+
 .padding {
     background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
     text-color: black;
@@ -251,4 +252,8 @@ code {
 
 #myBtn:hover {
   background-color: #555;
+
+#padding {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
+
 }
