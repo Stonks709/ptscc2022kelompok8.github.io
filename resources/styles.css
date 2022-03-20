@@ -252,7 +252,3 @@ code {
 
 #myBtn:hover {
   background-color: #555;
-
-.padding {
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
-}
