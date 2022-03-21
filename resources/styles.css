@@ -249,3 +249,8 @@ a:link, a:visited {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+.padding {
+ background-color: #000000;   
+}
