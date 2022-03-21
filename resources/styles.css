@@ -256,4 +256,5 @@ a:link, a:visited {
 
 .padding {
  background-color: #000000;   
+ padding: 10px;
 }
