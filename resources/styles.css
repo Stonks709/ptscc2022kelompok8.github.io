@@ -242,7 +242,7 @@ a:link, a:visited {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: blue;
   color: white;
   cursor: pointer;
   padding: 15px;
