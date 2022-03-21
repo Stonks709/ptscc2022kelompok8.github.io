@@ -223,7 +223,7 @@ a:link, a:visited {
 }
 
 .gambar {
-    border-color: black;
+    border-color: #000000;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
