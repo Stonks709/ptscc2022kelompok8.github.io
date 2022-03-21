@@ -9,6 +9,25 @@
     <head>
         <title>PTS Kelompok 8 Kelas 82</title>
         <h1 align="center">Mengulas Fenomena Trading, Mata Uang Kripto, dan NFT</h1>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+        </script>
     </head>
     <body>
         <img class="center gambar fade-in" src="resources/NFT.jpg" alt="Gambar NFT">
@@ -132,25 +151,7 @@
                 </ul>
             </div>
         </div>
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        <script>
-            mybutton = document.getElementById("myBtn");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-        </script>
+            
             <p> 
 ███╗░░██╗███████╗████████╗
 ████╗░██║██╔════╝╚══██╔══╝
